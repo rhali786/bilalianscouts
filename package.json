@@ -5,7 +5,9 @@
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cordova build --release android",
+    "sign": "jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore android.keystore android-release-unsigned.apk BilalianScouts",
+    "zipalign": "C:\\Users\\rhali\\AppData\\Local\\Android\\sdk\\build-tools\\25.0.0\\zipalign.exe -v 4 android-release-unsigned.apk android-release.apk"
   },
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
