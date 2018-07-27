@@ -5,7 +5,7 @@
 
 .header-light .header-logo{background-image:url(../images/logo-dark.png)!important;}
 .header-dark .header-logo{background-image:url(../images/logo-light.png)!important;}
-.header-logo{background-size:74px 14px;	width:74px;	height:55px;}
+.header-logo{background-size:150px;	width:150px;	height:55px;}
 
 .footer-logo{height:25px; background-size:120px 23px;}
 .footer-light .footer-logo{background-image:url(../images/logo-dark.png);}
